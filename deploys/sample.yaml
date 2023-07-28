@@ -7,7 +7,7 @@ metadata:
   name: testargo
   namespace: argons
 spec:
-  replicas: 60
+  replicas: 1
   selector:
     matchLabels:
       app: testargo

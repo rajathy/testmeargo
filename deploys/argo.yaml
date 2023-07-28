@@ -1,11 +1,11 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: argo
+  name: argo-app
 spec:
   destination:
     name: docker-desktop
-    namespace: argons
+    namespace: argocd
   source:
     path: deploys
     repoURL: 'https://github.com/rajathy/testmeargo.git'

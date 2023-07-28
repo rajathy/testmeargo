@@ -4,7 +4,7 @@ metadata:
   creationTimestamp: null
   labels:
     app: testargo
-  name: testargo
+  name: testargo1
   namespace: argons
 spec:
   replicas: 10

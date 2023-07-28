@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: testargo
+  name: argo
 spec:
   destination:
     name: docker-desktop
@@ -11,7 +11,7 @@ spec:
     repoURL: 'https://github.com/rajathy/testmeargo.git'
     targetRevision: main
   sources: []
-  project: default
+  project: rajath
   syncPolicy:
     automated:
       prune: true

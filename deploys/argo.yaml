@@ -1,0 +1,20 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: testargo
+spec:
+  destination:
+    name: docker-desktop
+    namespace: argons
+  source:
+    path: deploys
+    repoURL: 'https://github.com/rajathy/testmeargo.git'
+    targetRevision: main
+  sources: []
+  project: default
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
+    syncOptions:
+      - CreateNamespace=true

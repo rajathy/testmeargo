@@ -4,10 +4,10 @@ metadata:
   creationTimestamp: null
   labels:
     app: testargo
-  name: testargo1
+  name: testdeploy
   namespace: argons
 spec:
-  replicas: 10
+  replicas: 1
   selector:
     matchLabels:
       app: testargo

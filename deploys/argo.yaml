@@ -5,7 +5,7 @@ metadata:
 spec:
   destination:
     name: docker-desktop
-    namespace: argo-apps-1
+    namespace: argo-apps
   source:
     path: deploys
     repoURL: 'https://github.com/rajathy/testmeargo.git'

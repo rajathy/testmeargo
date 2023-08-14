@@ -7,7 +7,7 @@ metadata:
   name: testdeploy
   namespace: argo-apps
 spec:
-  replicas: 45
+  replicas: 2
   selector:
     matchLabels:
       app: testargo

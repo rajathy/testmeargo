@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   creationTimestamp: null
   labels:
-    app: testargo
+    app: argotest
   name: testdeploy
   namespace: argo-apps
 spec:

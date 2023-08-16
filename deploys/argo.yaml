@@ -12,6 +12,7 @@ spec:
     targetRevision: main
   sources: []
   project: default
+  Namespace: argo-apps
   syncPolicy:
     automated:
       prune: true

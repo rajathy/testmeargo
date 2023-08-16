@@ -11,7 +11,7 @@ spec:
     repoURL: 'https://github.com/rajathy/testmeargo.git'
     targetRevision: main
   sources: []
-  project: Rajath
+  project: default
   syncPolicy:
     automated:
       prune: true

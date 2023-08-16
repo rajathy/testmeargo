@@ -1,12 +1,12 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: argo-apps-rajath
+  name: argo-apps-raj
   namespace: argocd
 spec:
   destination:
     server: https://kubernetes.default.svc
-    namespace: argo-apps
+    namespace: argo-apps-test
   source:
     path: deploys
     repoURL: 'https://github.com/rajathy/testmeargo.git'

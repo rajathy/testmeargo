@@ -5,7 +5,7 @@ metadata:
   namespace: argocd
 spec:
   destination:
-    server: https://127.0.0.1:1992
+    server: https://kubernetes.default.svc
     namespace: argo-apps
   source:
     path: deploys

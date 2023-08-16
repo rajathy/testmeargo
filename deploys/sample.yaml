@@ -4,8 +4,8 @@ metadata:
   creationTimestamp: null
   labels:
     app: argo-test
-  name: test-deploy
-  namespace: argo-apps
+  name: test-deployment
+  namespace: argo-app
 spec:
   replicas: 5
   selector:

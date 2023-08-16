@@ -2,9 +2,10 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: argo-apps
+  namespace: argocd
 spec:
   destination:
-    name: docker-desktop
+    name: minikube
     namespace: argo-apps
   source:
     path: deploys
